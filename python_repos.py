@@ -17,7 +17,7 @@ print(f"Repositories returned: {len(repo_dicts)}")
 # Examine the first repository.
 repo_dict = repo_dicts[0]
 
-print("\nSelected information about first repository:")
+print("\nSelected information about each repository:")
 for repo_dict in repo_dicts:
     print(f"Name: {repo_dict['name']}")
     print(f"Owner: {repo_dict['owner']['login']}")
